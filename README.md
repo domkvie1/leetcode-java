@@ -10,6 +10,7 @@ I'm Dominic, a Computer Science student at Brooklyn College (CUNY), graduating M
 | Contains Duplicate | `ContainsDuplicate.java` | Nested loops; HashSet | O(n²); O(n) |
 | Valid Anagram | `ValidAnagram.java` | Sort and compare; letter counts | O(n log n); O(n) |
 | Valid Parentheses | `ValidParentheses.java` | Stack (push the expected closer) | O(n) |
+| Best Time to Buy and Sell Stock | `BestTimeToBuyAndSellStock.java` | Nested loops (one-pass version coming) | O(n²) |
 
 ## What I'm practicing
 - Java fundamentals and clean, readable code
