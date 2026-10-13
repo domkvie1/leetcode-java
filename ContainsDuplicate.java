@@ -30,7 +30,7 @@ public static boolean containsDuplicate(int[] nums){
 }
 
 
-public static boolean containsDuplicate(int[] nums){
+/*public static boolean containsDuplicate(int[] nums){
     for(int i = 0; i< nums.length-1; i++){
         int num1 = nums[i];
         for(int j = i+1; j<nums.length; j++){
@@ -41,5 +41,5 @@ public static boolean containsDuplicate(int[] nums){
         }
     }
     return false;
-}
+}*/
 }
