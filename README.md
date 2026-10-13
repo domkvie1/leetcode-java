@@ -23,5 +23,5 @@ Each file has its own `main` method and reads input from the console.
 ## Next up
 Queues, and more array and string problems.
 
-## Notes 
-I write the solution to the problems myself and use Claud to review my code and help push it to GitHub. If wanted, I can provide the code I wrote in onlineGDB.
+## Notes
+I write the solution to the problems myself and use Claude to review my code and help push it to GitHub. If wanted, I can provide the code I wrote in onlineGDB.
