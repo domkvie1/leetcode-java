@@ -10,8 +10,8 @@ public class ContainsDuplicate{
     for(int i = 0; i < size; i++){
         nums[i] = sc.nextInt();
     }
-    System.out.println(containsDuplicate(nums));
-    System.out.println(containsDuplicateSlow(nums));
+    System.out.println(containsDuplicateHashSet("Hash Set: " + nums));
+    System.out.println(containsDuplicateNested("Nested: " + nums));
     System.out.println("Would you like to go again? (yes/no)");
     String again = sc.next();
     if(again.equals("no")) run = false;
@@ -19,7 +19,7 @@ public class ContainsDuplicate{
     System.out.println("Have a good day:)");
 }
 
-public static boolean containsDuplicate(int[] nums){
+public static boolean containsDuplicateHashSet(int[] nums){
     Set<Integer> seen = new HashSet<>();
     for(int i = 0; i< nums.length; i++){
         if(seen.contains(nums[i])){
@@ -31,7 +31,7 @@ public static boolean containsDuplicate(int[] nums){
 }
 
 
-public static boolean containsDuplicateSlow(int[] nums){
+public static boolean containsDuplicateNested(int[] nums){
     for(int i = 0; i< nums.length-1; i++){
         int num1 = nums[i];
         for(int j = i+1; j<nums.length; j++){
