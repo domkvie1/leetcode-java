@@ -19,7 +19,7 @@ public class Main{
         s = s.toLowerCase();
         t = t.toLowerCase();
         int[] count = new int[26];
-        for(int i = 0; i < s.length() - 1; i++){
+        for(int i = 0; i < s.length(); i++){
             count[s.charAt(i) - 'a']++;
             count[t.charAt(i) - 'a']--;
         }
