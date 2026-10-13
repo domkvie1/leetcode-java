@@ -9,6 +9,7 @@ I'm Dominic, a Computer Science student at Brooklyn College (CUNY), graduating M
 | Two Sum | `TwoSum.java` | Nested loops; HashMap | O(n²); O(n) |
 | Contains Duplicate | `ContainsDuplicate.java` | Nested loops; HashSet | O(n²); O(n) |
 | Valid Anagram | `ValidAnagram.java` | Sort and compare; letter counts | O(n log n); O(n) |
+| Valid Parentheses | `ValidParentheses.java` | Stack (push the expected closer) | O(n) |
 
 ## What I'm practicing
 - Java fundamentals and clean, readable code
@@ -19,4 +20,4 @@ I'm Dominic, a Computer Science student at Brooklyn College (CUNY), graduating M
 Each file has its own `main` method and reads input from the console.
 
 ## Next up
-Stacks, queues, and more array and string problems.
+Queues, and more array and string problems.
