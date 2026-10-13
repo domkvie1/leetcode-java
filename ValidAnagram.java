@@ -8,13 +8,14 @@ public class ValidAnagram{
             System.out.println("Give me two strings:");
             String s = sc.next();
             String t = sc.next();
-            System.out.println(isAnagram2(s, t));
+            System.out.println(isAnagram(s, t));
+            System.out.println(isAnagramSort("Sort: " + isAnagramSort(s, t))); 
             System.out.println("Would you like to go again? (yes/no)");
             if(sc.next().equalsIgnoreCase("no")) run = false;
             }
         System.out.println("Have a great day:)");
     }
-    public static boolean isAnagram2(String s, String t){
+    public static boolean isAnagram(String s, String t){
         if(s.length() != t.length()) return false;
         s = s.toLowerCase();
         t = t.toLowerCase();
@@ -27,14 +28,14 @@ public class ValidAnagram{
             if(count[i] != 0) return false;
         }
         return true;
-    }
-}    
-    /*    
-public static boolean isAnagram(String s, String t){
+    }   
+        
+public static boolean isAnagramSort(String s, String t){
     if(s.length() !=t.length()) return false;
     char[] a = s.toCharArray();
     char[] b = t.toCharArray();
     Arrays.sort(a);
     Arrays.sort(b);
     return Arrays.equals(a, b);
-}*/
+}
+}
