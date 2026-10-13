@@ -9,7 +9,7 @@ public class ValidAnagram{
             String s = sc.next();
             String t = sc.next();
             System.out.println(isAnagram(s, t));
-            System.out.println(isAnagramSort("Sort: " + isAnagramSort(s, t))); 
+            System.out.println("Sort: " + isAnagramSort(s, t)); 
             System.out.println("Would you like to go again? (yes/no)");
             if(sc.next().equalsIgnoreCase("no")) run = false;
             }
