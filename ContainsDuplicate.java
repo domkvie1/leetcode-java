@@ -10,7 +10,6 @@ public class ContainsDuplicate{
     for(int i = 0; i < size; i++){
         nums[i] = sc.nextInt();
     }
-    // CLAUDE FIX: label goes outside the method call, nums goes inside
     System.out.println("Hash Set: " + containsDuplicateHashSet(nums));
     System.out.println("Nested: " + containsDuplicateNested(nums));
     System.out.println("Would you like to go again? (yes/no)");

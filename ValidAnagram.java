@@ -32,7 +32,6 @@ public class ValidAnagram{
         
 public static boolean isAnagramSort(String s, String t){
     if(s.length() !=t.length()) return false;
-    // CLAUDE FIX: lowercase both so "Listen" and "Silent" match, same as the count method
     s = s.toLowerCase();
     t = t.toLowerCase();
     char[] a = s.toCharArray();
