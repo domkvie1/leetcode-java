@@ -11,6 +11,7 @@ public class ContainsDuplicate{
         nums[i] = sc.nextInt();
     }
     System.out.println(containsDuplicate(nums));
+    System.out.println(containsDuplicateSlow(nums));
     System.out.println("Would you like to go again? (yes/no)");
     String again = sc.next();
     if(again.equals("no")) run = false;
@@ -30,7 +31,7 @@ public static boolean containsDuplicate(int[] nums){
 }
 
 
-/*public static boolean containsDuplicate(int[] nums){
+public static boolean containsDuplicateSlow(int[] nums){
     for(int i = 0; i< nums.length-1; i++){
         int num1 = nums[i];
         for(int j = i+1; j<nums.length; j++){
@@ -41,5 +42,5 @@ public static boolean containsDuplicate(int[] nums){
         }
     }
     return false;
-}*/
+}
 }
