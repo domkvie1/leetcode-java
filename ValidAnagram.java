@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main{ 
+public class ValidAnagram{ 
     public static void main(String[] args){
         boolean run = true;
         Scanner sc = new Scanner(System.in);
