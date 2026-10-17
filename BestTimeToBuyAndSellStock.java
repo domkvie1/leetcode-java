@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main{
+public class BestTimeToBuyAndSellStock{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Boolean run = true;
